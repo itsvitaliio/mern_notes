@@ -1,0 +1,22 @@
+.header{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 10vh;
+    border-bottom: .1vh solid grey;
+}
+
+.header, .actionsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.actionsContainer, .logoutContainer{
+    margin: auto 2.5%;
+}
+
+.actionsContainer{
+    width: 10%;
+}

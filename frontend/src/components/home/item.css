@@ -1,0 +1,25 @@
+.post input{
+    display: block;
+}
+.postActions *{
+    display: inline-block;
+    margin: .5%;
+}
+.post input, .post textarea{
+    width: 45vw;
+    border-radius: 0;
+    outline: none;
+}
+.post input{
+    font-size: 1.5rem;
+    padding: .5% 0;
+    border: none;
+    border-bottom: .1vh solid grey;
+}
+.post textarea{
+    height: 40vh;
+    font-size: 1rem;
+    padding: 0;
+    border: none;
+    resize: none;
+}

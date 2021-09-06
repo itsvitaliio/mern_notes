@@ -1,0 +1,8 @@
+.authBtn{
+    text-align: center;
+    margin: .5% auto;
+    width: 15vw;
+    padding: .5% 1%;
+    border: .1vh darkslategray solid;
+    border-radius: 4vh;
+}
